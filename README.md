@@ -20,9 +20,8 @@ Well this is a DEV BOARD that has 12*12 led screen ( matrix) driven by led DRIVE
 # BOM
 | # | Component | Supplier | Qty | Unit Price | Total (USD) |
 |---|-----------|----------|-----|------------|-------------|
-| 1 | PCB | JLCPCB | 1 | $78.02 | $78.02 |
-| 2 | IS31FL3737 LED Driver | DigiKey | 5 | $2.07 | $10.34 |
-| | | | | **TOTAL** | **$88.36** |
+| 1 | PCB | JLCPCB | 2 | $87 | $87 |
+| | | | | **TOTAL** | **$87** |
 
 
 
