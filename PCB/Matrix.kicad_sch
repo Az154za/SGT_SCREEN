@@ -359,7 +359,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Socket"
+		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -375,7 +375,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Socket"
+			(property "Value" "Conn_01x04_Pin"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -436,22 +436,54 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -0.508 0)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -463,7 +495,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -475,7 +507,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -485,46 +517,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -534,7 +530,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -552,7 +548,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -570,7 +566,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -588,7 +584,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 5.08 -5.08 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -608,7 +604,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x11_Pin"
+		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -617,15 +613,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 15.24 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x11_Pin"
-				(at 0 -15.24 0)
+			(property "Value" "Conn_01x06_Pin"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -650,7 +646,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x11, script generated"
+			(property "Description" "Generic connector, single row, 01x06, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -685,7 +681,345 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x11_Pin_1_1"
+			(symbol "Conn_01x06_Pin_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x13_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x13_Pin"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x13, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x13_Pin_1_1"
+				(rectangle
+					(start 0.8636 15.367)
+					(end 0 15.113)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(rectangle
 					(start 0.8636 12.827)
 					(end 0 12.573)
@@ -805,6 +1139,29 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 15.24) (xy 0.8636 15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -939,8 +1296,20 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.27 -15.24) (xy 0.8636 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 5.08 12.7 180)
+					(at 5.08 15.24 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -958,7 +1327,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 10.16 180)
+					(at 5.08 12.7 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -976,7 +1345,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 7.62 180)
+					(at 5.08 10.16 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -994,7 +1363,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 180)
+					(at 5.08 7.62 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1012,7 +1381,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 5.08 180)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1030,7 +1399,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -1048,7 +1417,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1066,7 +1435,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -1084,7 +1453,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -7.62 180)
+					(at 5.08 -5.08 180)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -1102,7 +1471,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -10.16 180)
+					(at 5.08 -7.62 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -1120,7 +1489,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -12.7 180)
+					(at 5.08 -10.16 180)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -1130,6 +1499,42 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -12.7 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -15.24 180)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5598,12 +6003,6 @@
 		(uuid "1d1baa87-095d-444a-bda0-8d8ec49adf6c")
 	)
 	(junction
-		(at 312.42 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e2c1f3d-3fb7-4d79-9d39-682e1f6b881f")
-	)
-	(junction
 		(at 99.06 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5614,12 +6013,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21f20dea-a786-45d8-80d0-520289586ea1")
-	)
-	(junction
-		(at 312.42 15.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23113b19-968c-4e3b-9c14-71e48cd6ed6d")
 	)
 	(junction
 		(at 55.88 49.53)
@@ -5736,6 +6129,12 @@
 		(uuid "341a3377-c213-4eaa-adda-98c5e5e9942a")
 	)
 	(junction
+		(at 312.42 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3543e944-601f-4dfe-a21d-8e1f8207f4ba")
+	)
+	(junction
 		(at 295.91 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5818,6 +6217,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3dc9f6f3-68cc-4cd7-8fdd-721a3eca0103")
+	)
+	(junction
+		(at 312.42 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f98d6a2-7dbc-46da-b9ea-7a10c5176cb8")
 	)
 	(junction
 		(at 69.85 81.28)
@@ -6004,6 +6409,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5aecb307-9faa-419d-a36f-6852a9c3df86")
+	)
+	(junction
+		(at 374.65 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b0ec294-7c3f-4c2e-adbb-09b2fa0a5940")
 	)
 	(junction
 		(at 111.76 140.97)
@@ -6756,12 +7167,6 @@
 		(uuid "b8c6b0bc-7c09-45ff-a7ff-68986ebfae72")
 	)
 	(junction
-		(at 312.42 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8c7e797-33a9-4fd5-a38e-77b1f11ea232")
-	)
-	(junction
 		(at 95.25 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6784,6 +7189,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bab5a25c-fece-4c20-bf41-3726e9a3dc05")
+	)
+	(junction
+		(at 312.42 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb0e8bbd-2cd5-4815-8159-9648a6cb3f71")
 	)
 	(junction
 		(at 49.53 133.35)
@@ -6964,6 +7375,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d45efbfa-7969-437f-afb6-cd85bc8b791c")
+	)
+	(junction
+		(at 304.8 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4bc1271-81b1-4172-90a8-1bc1c518c6e0")
 	)
 	(junction
 		(at 236.22 163.83)
@@ -7180,12 +7597,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5c13d08-68e5-44ba-8159-98ee580afb7e")
-	)
-	(junction
-		(at 312.42 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5e03e71-0a53-4875-ada3-a7381bb55c16")
 	)
 	(junction
 		(at 62.23 66.04)
@@ -7415,6 +7826,16 @@
 	)
 	(wire
 		(pts
+			(xy 391.16 15.24) (xy 374.65 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bef6ea-e683-4c49-bd18-51c96215c703")
+	)
+	(wire
+		(pts
 			(xy 210.82 154.94) (xy 210.82 162.56)
 		)
 		(stroke
@@ -7615,16 +8036,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 96.52) (xy 341.63 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1130be02-3728-4a71-b249-baecc69c37bb")
-	)
-	(wire
-		(pts
 			(xy 95.25 73.66) (xy 99.06 73.66)
 		)
 		(stroke
@@ -7742,6 +8153,16 @@
 			(type default)
 		)
 		(uuid "18cb0332-84b4-47ba-a149-69320a161d51")
+	)
+	(wire
+		(pts
+			(xy 391.16 13.97) (xy 391.16 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f8e145-be57-4421-a189-f5cebaafdf17")
 	)
 	(wire
 		(pts
@@ -7865,6 +8286,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 104.14) (xy 346.71 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6cba36-a31b-49d9-a760-b5e6354b9aba")
+	)
+	(wire
+		(pts
 			(xy 49.53 151.13) (xy 52.07 151.13)
 		)
 		(stroke
@@ -7965,6 +8396,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 15.24) (xy 312.42 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22302d1a-7846-46b4-bbde-9b53e3814ab0")
+	)
+	(wire
+		(pts
 			(xy 99.06 88.9) (xy 99.06 106.68)
 		)
 		(stroke
@@ -8032,6 +8473,16 @@
 			(type default)
 		)
 		(uuid "2488576c-997d-4d01-a507-5835985a7204")
+	)
+	(wire
+		(pts
+			(xy 327.66 83.82) (xy 346.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25942fb3-0efe-45e6-aa74-73ea5e0dbe22")
 	)
 	(wire
 		(pts
@@ -8215,6 +8666,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 15.24) (xy 322.58 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df2f789-019e-4a39-8984-17ad914f7bc5")
+	)
+	(wire
+		(pts
 			(xy 105.41 151.13) (xy 105.41 161.29)
 		)
 		(stroke
@@ -8345,16 +8806,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 99.06) (xy 341.63 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3382db99-d9f7-46a3-85de-70543d2c1292")
-	)
-	(wire
-		(pts
 			(xy 332.74 144.78) (xy 332.74 139.7)
 		)
 		(stroke
@@ -8362,16 +8813,6 @@
 			(type default)
 		)
 		(uuid "3418a458-faad-4da5-a3d9-433cb65916b9")
-	)
-	(wire
-		(pts
-			(xy 337.82 106.68) (xy 341.63 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "347fc70a-3d91-4f55-9130-c3cd163568b7")
 	)
 	(wire
 		(pts
@@ -8462,6 +8903,26 @@
 			(type default)
 		)
 		(uuid "3b1e225e-21f8-4dc1-a290-4618b9ccebf2")
+	)
+	(wire
+		(pts
+			(xy 327.66 88.9) (xy 346.71 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba9d1ee-1122-48a4-9595-654e80dd288d")
+	)
+	(wire
+		(pts
+			(xy 327.66 91.44) (xy 346.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bf2ba9b-7dad-49bc-ad3a-f4a7d008f931")
 	)
 	(wire
 		(pts
@@ -8612,16 +9073,6 @@
 			(type default)
 		)
 		(uuid "42314494-73db-449a-b7aa-1b40ba306dca")
-	)
-	(wire
-		(pts
-			(xy 341.63 104.14) (xy 336.55 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "424cc60c-289f-4610-be21-c7c070416249")
 	)
 	(wire
 		(pts
@@ -9155,16 +9606,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 83.82) (xy 341.63 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a60efe4-39bc-4c1d-9b44-b62f76626cc4")
-	)
-	(wire
-		(pts
 			(xy 43.18 24.13) (xy 46.99 24.13)
 		)
 		(stroke
@@ -9315,16 +9756,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 91.44) (xy 341.63 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61b4e40b-a918-461b-9393-85b2aeb39fa2")
-	)
-	(wire
-		(pts
 			(xy 62.23 153.67) (xy 69.85 153.67)
 		)
 		(stroke
@@ -9465,6 +9896,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 78.74) (xy 346.71 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b9ef54-2d39-4640-a999-cccd7d94f704")
+	)
+	(wire
+		(pts
 			(xy 46.99 88.9) (xy 46.99 106.68)
 		)
 		(stroke
@@ -9502,16 +9943,6 @@
 			(type default)
 		)
 		(uuid "66061133-8e0e-4565-999e-39e14fb467e2")
-	)
-	(wire
-		(pts
-			(xy 327.66 86.36) (xy 341.63 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "665ce6f0-7e2a-4eda-a40b-49beb7977f29")
 	)
 	(wire
 		(pts
@@ -9585,6 +10016,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 38.1) (xy 312.42 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6865ce63-7087-46a9-bb07-6840218656ac")
+	)
+	(wire
+		(pts
 			(xy 59.69 151.13) (xy 59.69 161.29)
 		)
 		(stroke
@@ -9632,16 +10073,6 @@
 			(type default)
 		)
 		(uuid "6996fc3e-479b-4b1e-be65-bff259c269b8")
-	)
-	(wire
-		(pts
-			(xy 312.42 29.21) (xy 312.42 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69e252c4-fde9-49a3-a114-0af7ce09d639")
 	)
 	(wire
 		(pts
@@ -9755,16 +10186,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 15.24) (xy 322.58 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71380949-30b8-4912-b006-4a12e611ff53")
-	)
-	(wire
-		(pts
 			(xy 76.2 184.15) (xy 80.01 184.15)
 		)
 		(stroke
@@ -9785,13 +10206,13 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 88.9) (xy 341.63 88.9)
+			(xy 327.66 86.36) (xy 346.71 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "725eefce-eaf1-405c-92d2-d530df387350")
+		(uuid "71e1dfb6-5fdc-4cc3-aae0-d713b7afd890")
 	)
 	(wire
 		(pts
@@ -9852,6 +10273,16 @@
 			(type default)
 		)
 		(uuid "756dbbd0-d2ce-41ee-ac23-af6064734b8c")
+	)
+	(wire
+		(pts
+			(xy 337.82 106.68) (xy 346.71 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7607f99e-46ea-4915-a4c6-c52358540399")
 	)
 	(wire
 		(pts
@@ -9982,16 +10413,6 @@
 			(type default)
 		)
 		(uuid "7b1411c4-00a8-40aa-8fba-159cdb24d04d")
-	)
-	(wire
-		(pts
-			(xy 224.79 90.17) (xy 205.74 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b9f6a5f-0d75-4f30-98fd-cdf96ad9ad12")
 	)
 	(wire
 		(pts
@@ -10275,16 +10696,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 93.98) (xy 341.63 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87166592-0936-43ce-af86-6c1b7b650797")
-	)
-	(wire
-		(pts
 			(xy 88.9 16.51) (xy 95.25 16.51)
 		)
 		(stroke
@@ -10295,16 +10706,6 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 109.22) (xy 339.09 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "873a86a2-d23f-4bad-ba79-85b460e74acd")
-	)
-	(wire
-		(pts
 			(xy 66.04 39.37) (xy 66.04 57.15)
 		)
 		(stroke
@@ -10312,6 +10713,16 @@
 			(type default)
 		)
 		(uuid "87597dea-8a2a-412e-8873-07fcaeecf5f6")
+	)
+	(wire
+		(pts
+			(xy 219.71 90.17) (xy 224.79 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a2bb4b-36c8-4e21-8ce7-5ac266895466")
 	)
 	(wire
 		(pts
@@ -10382,6 +10793,16 @@
 			(type default)
 		)
 		(uuid "8911d44c-caeb-4faf-9fb3-dd2fb507f1e9")
+	)
+	(wire
+		(pts
+			(xy 327.66 96.52) (xy 346.71 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8911ed27-ec40-40a8-98f7-ac8806aca3f1")
 	)
 	(wire
 		(pts
@@ -10745,6 +11166,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 30.48) (xy 300.99 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c545c8a-9952-4246-ada4-3d34e1ec9c58")
+	)
+	(wire
+		(pts
 			(xy 62.23 16.51) (xy 69.85 16.51)
 		)
 		(stroke
@@ -10822,16 +11253,6 @@
 			(type default)
 		)
 		(uuid "a06c97ce-8a06-40d4-89ab-5bd67a21f8aa")
-	)
-	(wire
-		(pts
-			(xy 327.66 78.74) (xy 341.63 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0f2b545-a59e-4da7-ab65-94ccc53988f2")
 	)
 	(wire
 		(pts
@@ -10962,6 +11383,16 @@
 			(type default)
 		)
 		(uuid "a6da5f71-88e8-41bc-a536-5cbe91f4a771")
+	)
+	(wire
+		(pts
+			(xy 335.28 101.6) (xy 346.71 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70b3a6c-399e-4964-84fb-2390920c5ecf")
 	)
 	(wire
 		(pts
@@ -11205,6 +11636,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 93.98) (xy 346.71 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49b82f0-bb43-4779-90a6-86ce7c8122c7")
+	)
+	(wire
+		(pts
 			(xy 76.2 57.15) (xy 80.01 57.15)
 		)
 		(stroke
@@ -11385,6 +11826,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 90.17) (xy 205.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde917a3-ca0d-47ab-a1ed-a5953acf9f30")
+	)
+	(wire
+		(pts
 			(xy 95.25 39.37) (xy 99.06 39.37)
 		)
 		(stroke
@@ -11465,6 +11916,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 22.86) (xy 312.42 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08ee709-d24f-41dd-8a97-073838e690db")
+	)
+	(wire
+		(pts
 			(xy 49.53 39.37) (xy 52.07 39.37)
 		)
 		(stroke
@@ -11502,6 +11963,16 @@
 			(type default)
 		)
 		(uuid "c37ba9ec-6a7b-4e01-9bf9-10cb85d1de80")
+	)
+	(wire
+		(pts
+			(xy 391.16 22.86) (xy 374.65 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c43d5cc1-dc98-4ce1-982d-51608b335cf3")
 	)
 	(wire
 		(pts
@@ -11682,6 +12153,16 @@
 			(type default)
 		)
 		(uuid "cb203997-f887-49b6-8b06-40aa5a9471c7")
+	)
+	(wire
+		(pts
+			(xy 300.99 15.24) (xy 304.8 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb60e188-461b-4636-9258-178942a12fe4")
 	)
 	(wire
 		(pts
@@ -12145,6 +12626,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 99.06) (xy 346.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1874b95-1b3e-4fe8-bc0a-07c5f23288da")
+	)
+	(wire
+		(pts
 			(xy 49.53 49.53) (xy 55.88 49.53)
 		)
 		(stroke
@@ -12365,23 +12856,13 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 22.86) (xy 312.42 29.21)
+			(xy 339.09 109.22) (xy 346.71 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea44dc0b-b0a5-48cc-996e-b35db6432d7a")
-	)
-	(wire
-		(pts
-			(xy 312.42 29.21) (xy 317.5 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ead54ec1-5913-45cb-969c-ad740677560d")
+		(uuid "eacf4286-df0f-416b-a4d9-e0a3248c80fe")
 	)
 	(wire
 		(pts
@@ -12435,6 +12916,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 81.28) (xy 346.71 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeee2611-1667-4fa6-94da-93ddd89913eb")
+	)
+	(wire
+		(pts
 			(xy 111.76 184.15) (xy 111.76 187.96)
 		)
 		(stroke
@@ -12475,6 +12966,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 30.48) (xy 312.42 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0eb5ee9-9728-4f4e-82d1-ff1ea51febe5")
+	)
+	(wire
+		(pts
 			(xy 283.21 25.4) (xy 292.1 25.4)
 		)
 		(stroke
@@ -12482,16 +12983,6 @@
 			(type default)
 		)
 		(uuid "f11a0df2-c456-40c8-a2d4-4e87860ef61c")
-	)
-	(wire
-		(pts
-			(xy 335.28 101.6) (xy 341.63 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f12a3e94-0ec8-4519-bece-c9d215fec214")
 	)
 	(wire
 		(pts
@@ -12782,16 +13273,6 @@
 			(type default)
 		)
 		(uuid "fd0c769f-f830-4e7c-9bed-c96181504e44")
-	)
-	(wire
-		(pts
-			(xy 327.66 81.28) (xy 341.63 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd2f5b46-97de-4818-aced-308c4dc017a5")
 	)
 	(wire
 		(pts
@@ -14776,7 +15257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 101.6 102.87 0)
 			(effects
 				(font
@@ -14921,7 +15402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 95.25 147.32 0)
 			(effects
 				(font
@@ -15000,7 +15481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 76.2 119.38 0)
 			(effects
 				(font
@@ -15079,7 +15560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 49.53 147.32 0)
 			(effects
 				(font
@@ -15158,7 +15639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 43.18 168.91 0)
 			(effects
 				(font
@@ -15304,7 +15785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 43.18 102.87 0)
 			(effects
 				(font
@@ -15383,7 +15864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 95.25 35.56 0)
 			(effects
 				(font
@@ -15462,7 +15943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 76.2 20.32 0)
 			(effects
 				(font
@@ -15674,7 +16155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 107.95 119.38 0)
 			(effects
 				(font
@@ -15819,7 +16300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 55.88 137.16 0)
 			(effects
 				(font
@@ -15872,7 +16353,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 374.65 22.86 0)
+		(at 391.16 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15881,7 +16362,7 @@
 		(fields_autoplaced yes)
 		(uuid "1322c28a-88ce-4800-bf1b-38807e2c8166")
 		(property "Reference" "#PWR09"
-			(at 374.65 29.21 0)
+			(at 391.16 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15890,7 +16371,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 374.65 27.94 0)
+			(at 391.16 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15898,7 +16379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 374.65 22.86 0)
+			(at 391.16 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15907,7 +16388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 374.65 22.86 0)
+			(at 391.16 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15916,7 +16397,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 374.65 22.86 0)
+			(at 391.16 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16198,7 +16679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 62.23 157.48 0)
 			(effects
 				(font
@@ -16277,7 +16758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 82.55 157.48 0)
 			(effects
 				(font
@@ -16356,7 +16837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 95.25 137.16 0)
 			(effects
 				(font
@@ -16435,7 +16916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 69.85 168.91 0)
 			(effects
 				(font
@@ -16514,7 +16995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 88.9 168.91 0)
 			(effects
 				(font
@@ -16593,7 +17074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 114.3 20.32 0)
 			(effects
 				(font
@@ -16672,7 +17153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 55.88 85.09 0)
 			(effects
 				(font
@@ -16751,7 +17232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 49.53 102.87 0)
 			(effects
 				(font
@@ -16830,7 +17311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 49.53 119.38 0)
 			(effects
 				(font
@@ -16975,7 +17456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 43.18 157.48 0)
 			(effects
 				(font
@@ -17054,7 +17535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 69.85 69.85 0)
 			(effects
 				(font
@@ -17133,7 +17614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 107.95 20.32 0)
 			(effects
 				(font
@@ -17212,7 +17693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 107.95 85.09 0)
 			(effects
 				(font
@@ -17291,7 +17772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 101.6 168.91 0)
 			(effects
 				(font
@@ -17370,7 +17851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 62.23 53.34 0)
 			(effects
 				(font
@@ -17553,6 +18034,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 351.79 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26fa631c-d4bc-4ccf-b6a6-7f2c011d1ee4")
+		(property "Reference" "J4"
+			(at 353.06 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 353.06 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical_SMD_Pin1Left"
+			(at 351.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 351.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3d9d97a2-99f3-4da0-b2a1-fa06af75f814")
+		)
+		(pin "3"
+			(uuid "554f9a90-e706-47a7-a266-27b54c9298e6")
+		)
+		(pin "1"
+			(uuid "49f3369a-ab88-478b-a25f-5b65043414fd")
+		)
+		(pin "2"
+			(uuid "bcca763d-55dd-415e-b891-030794b4cc99")
+		)
+		(pin "5"
+			(uuid "377918fa-dfed-432f-8f95-25683217b2bb")
+		)
+		(pin "6"
+			(uuid "771820b2-41dc-46b6-ae49-725a1bcc030f")
+		)
+		(instances
+			(project ""
+				(path "/36e18e2e-f10f-498a-b319-82b0e6fc74a4"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 280.67 195.58 180)
 		(unit 1)
@@ -17650,7 +18213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 43.18 53.34 0)
 			(effects
 				(font
@@ -17798,7 +18361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 101.6 20.32 0)
 			(effects
 				(font
@@ -17877,7 +18440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 69.85 20.32 0)
 			(effects
 				(font
@@ -18162,7 +18725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 76.2 102.87 0)
 			(effects
 				(font
@@ -18308,7 +18871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 62.23 85.09 0)
 			(effects
 				(font
@@ -18590,7 +19153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 88.9 102.87 0)
 			(effects
 				(font
@@ -18669,7 +19232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 88.9 119.38 0)
 			(effects
 				(font
@@ -18951,7 +19514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 88.9 35.56 0)
 			(effects
 				(font
@@ -19096,7 +19659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 95.25 102.87 0)
 			(effects
 				(font
@@ -19175,7 +19738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 55.88 53.34 0)
 			(effects
 				(font
@@ -19254,7 +19817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 43.18 69.85 0)
 			(effects
 				(font
@@ -19644,7 +20207,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 317.5 33.02 0)
+		(at 304.8 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19652,7 +20215,7 @@
 		(dnp no)
 		(uuid "42796c75-39f5-4032-8290-998829a2097d")
 		(property "Reference" "C10"
-			(at 320.294 31.242 0)
+			(at 307.594 17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19661,7 +20224,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 319.786 33.274 0)
+			(at 307.086 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19670,7 +20233,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 318.4652 36.83 0)
+			(at 305.7652 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19679,7 +20242,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 317.5 33.02 0)
+			(at 304.8 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19688,7 +20251,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 317.5 33.02 0)
+			(at 304.8 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19875,7 +20438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 62.23 102.87 0)
 			(effects
 				(font
@@ -19954,7 +20517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 107.95 137.16 0)
 			(effects
 				(font
@@ -20006,82 +20569,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 346.71 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "470df6ee-bae4-4fe0-9109-6a115733b60a")
-		(property "Reference" "J6"
-			(at 347.98 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 347.98 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 346.71 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 346.71 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 346.71 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5a2db922-5f2a-4616-9556-84f05d4efe45")
-		)
-		(pin "1"
-			(uuid "83d98398-10a6-4822-925a-2a6476a5772f")
-		)
-		(pin "3"
-			(uuid "1947409b-2ec3-4115-b2a8-73981ed5102e")
-		)
-		(pin "4"
-			(uuid "60863440-2597-474e-b87a-ecb4c89c3575")
-		)
-		(instances
-			(project ""
-				(path "/36e18e2e-f10f-498a-b319-82b0e6fc74a4"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 76.2 157.48 90)
 		(unit 1)
@@ -20109,7 +20596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 76.2 157.48 0)
 			(effects
 				(font
@@ -20188,7 +20675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 43.18 35.56 0)
 			(effects
 				(font
@@ -20267,7 +20754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 101.6 119.38 0)
 			(effects
 				(font
@@ -20346,7 +20833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 55.88 119.38 0)
 			(effects
 				(font
@@ -20492,7 +20979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 55.88 168.91 0)
 			(effects
 				(font
@@ -20773,7 +21260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 55.88 69.85 0)
 			(effects
 				(font
@@ -20852,7 +21339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 88.9 157.48 0)
 			(effects
 				(font
@@ -20931,7 +21418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 49.53 137.16 0)
 			(effects
 				(font
@@ -21010,7 +21497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 49.53 168.91 0)
 			(effects
 				(font
@@ -21262,7 +21749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 55.88 147.32 0)
 			(effects
 				(font
@@ -21341,7 +21828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 62.23 147.32 0)
 			(effects
 				(font
@@ -21486,7 +21973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 101.6 157.48 0)
 			(effects
 				(font
@@ -21633,7 +22120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 62.23 180.34 0)
 			(effects
 				(font
@@ -21712,7 +22199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 76.2 69.85 0)
 			(effects
 				(font
@@ -21791,7 +22278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 62.23 168.91 0)
 			(effects
 				(font
@@ -21870,7 +22357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 114.3 180.34 0)
 			(effects
 				(font
@@ -21949,7 +22436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 107.95 35.56 0)
 			(effects
 				(font
@@ -22028,7 +22515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 82.55 35.56 0)
 			(effects
 				(font
@@ -22074,6 +22561,109 @@
 			(project "Matrix"
 				(path "/36e18e2e-f10f-498a-b319-82b0e6fc74a4"
 					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x13_Pin")
+		(at 346.71 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61908585-42a1-4789-a9a0-a24eff9baa58")
+		(property "Reference" "J3"
+			(at 347.98 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x13_Pin"
+			(at 347.98 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x13_P1.00mm_Vertical_SMD_Pin1Left"
+			(at 346.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x13, script generated"
+			(at 346.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "3d7df1d9-4216-4b2b-923e-212b982dbbad")
+		)
+		(pin "9"
+			(uuid "29a69ff6-ef13-4a27-bd53-8e61ade2f662")
+		)
+		(pin "4"
+			(uuid "22343005-92e3-4302-be45-6b921f33ba99")
+		)
+		(pin "11"
+			(uuid "1b6ab697-1fbe-47b9-b7bf-f78c478a19ea")
+		)
+		(pin "3"
+			(uuid "32a33fac-c0ac-4ab0-9b7b-34a0a687af5f")
+		)
+		(pin "6"
+			(uuid "fe49e401-7c78-49f6-a24c-717af96027b8")
+		)
+		(pin "2"
+			(uuid "0b993812-52ab-44d2-a7c3-d332397c9294")
+		)
+		(pin "8"
+			(uuid "919cc05a-97ce-4d35-9c35-a4b8bd5818ed")
+		)
+		(pin "13"
+			(uuid "9ad43e4b-a894-457f-8c6d-777461a61398")
+		)
+		(pin "5"
+			(uuid "63948ac2-3c3d-405d-bee0-6900bf7e2de1")
+		)
+		(pin "7"
+			(uuid "84aae886-6b11-45b0-b09a-3d22bb644330")
+		)
+		(pin "1"
+			(uuid "0365fb55-316c-462c-8861-215469f05f34")
+		)
+		(pin "10"
+			(uuid "1a586575-f004-4dfc-9b04-20c897a84c72")
+		)
+		(instances
+			(project ""
+				(path "/36e18e2e-f10f-498a-b319-82b0e6fc74a4"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -22241,7 +22831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 76.2 53.34 0)
 			(effects
 				(font
@@ -22320,7 +22910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 95.25 53.34 0)
 			(effects
 				(font
@@ -22399,7 +22989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 101.6 180.34 0)
 			(effects
 				(font
@@ -22478,7 +23068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 101.6 69.85 0)
 			(effects
 				(font
@@ -22557,7 +23147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 107.95 180.34 0)
 			(effects
 				(font
@@ -22636,7 +23226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 88.9 69.85 0)
 			(effects
 				(font
@@ -22782,7 +23372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 69.85 157.48 0)
 			(effects
 				(font
@@ -22861,7 +23451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 76.2 147.32 0)
 			(effects
 				(font
@@ -22913,103 +23503,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x11_Pin")
-		(at 346.71 58.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e7fad9a-ea7e-4077-8664-082a29d7c316")
-		(property "Reference" "J3"
-			(at 347.98 59.6901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x11_Pin"
-			(at 347.98 57.1501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
-			(at 346.71 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 346.71 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x11, script generated"
-			(at 346.71 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "365cefee-79d0-4c9d-be31-e5579ffaec0a")
-		)
-		(pin "8"
-			(uuid "85c741fa-49e3-4f5b-a6ef-470c893bb110")
-		)
-		(pin "7"
-			(uuid "149aab36-8664-49af-ba69-5431ecbe342d")
-		)
-		(pin "2"
-			(uuid "0f5477c5-1167-4e55-bd29-4b366d0da7a7")
-		)
-		(pin "3"
-			(uuid "426ff16f-b8d2-463d-b3ea-b744b3bfcab8")
-		)
-		(pin "4"
-			(uuid "e443d5ab-9403-4f70-8c6d-ec1580f1ab67")
-		)
-		(pin "5"
-			(uuid "8c4e0462-b565-4fdd-9ff4-75a07d9e8a47")
-		)
-		(pin "6"
-			(uuid "7afa15a6-9a6d-4d40-b2e2-909c4ba8c18d")
-		)
-		(pin "9"
-			(uuid "0220696d-ab21-40ec-b8c2-7c486103fad5")
-		)
-		(pin "10"
-			(uuid "9ffdf35b-d46f-41c0-be12-869379db9daa")
-		)
-		(pin "11"
-			(uuid "adb2a29a-1b7b-446c-a5d0-7a3e006937e5")
-		)
-		(instances
-			(project ""
-				(path "/36e18e2e-f10f-498a-b319-82b0e6fc74a4"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 76.2 180.34 90)
 		(unit 1)
@@ -23037,7 +23530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 76.2 180.34 0)
 			(effects
 				(font
@@ -23190,7 +23683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 114.3 137.16 0)
 			(effects
 				(font
@@ -23269,7 +23762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 107.95 168.91 0)
 			(effects
 				(font
@@ -23483,7 +23976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 49.53 85.09 0)
 			(effects
 				(font
@@ -23629,7 +24122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 76.2 137.16 0)
 			(effects
 				(font
@@ -23708,7 +24201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 43.18 137.16 0)
 			(effects
 				(font
@@ -23787,7 +24280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 62.23 20.32 0)
 			(effects
 				(font
@@ -23866,7 +24359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 49.53 35.56 0)
 			(effects
 				(font
@@ -23945,7 +24438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 82.55 147.32 0)
 			(effects
 				(font
@@ -24090,7 +24583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 49.53 69.85 0)
 			(effects
 				(font
@@ -24169,7 +24662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 62.23 119.38 0)
 			(effects
 				(font
@@ -24248,7 +24741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 88.9 137.16 0)
 			(effects
 				(font
@@ -24327,7 +24820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 69.85 119.38 0)
 			(effects
 				(font
@@ -24406,7 +24899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 55.88 180.34 0)
 			(effects
 				(font
@@ -24551,7 +25044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 82.55 180.34 0)
 			(effects
 				(font
@@ -24630,7 +25123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 114.3 147.32 0)
 			(effects
 				(font
@@ -24709,7 +25202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 101.6 137.16 0)
 			(effects
 				(font
@@ -24855,7 +25348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 101.6 53.34 0)
 			(effects
 				(font
@@ -24934,7 +25427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 82.55 168.91 0)
 			(effects
 				(font
@@ -25013,7 +25506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 43.18 20.32 0)
 			(effects
 				(font
@@ -25092,7 +25585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 88.9 53.34 0)
 			(effects
 				(font
@@ -25238,7 +25731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 62.23 35.56 0)
 			(effects
 				(font
@@ -25317,7 +25810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 88.9 180.34 0)
 			(effects
 				(font
@@ -25396,7 +25889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 95.25 69.85 0)
 			(effects
 				(font
@@ -25475,7 +25968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 49.53 180.34 0)
 			(effects
 				(font
@@ -25554,7 +26047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 62.23 137.16 0)
 			(effects
 				(font
@@ -25633,7 +26126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 82.55 119.38 0)
 			(effects
 				(font
@@ -25712,7 +26205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 49.53 157.48 0)
 			(effects
 				(font
@@ -25791,7 +26284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 101.6 85.09 0)
 			(effects
 				(font
@@ -25870,7 +26363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 69.85 53.34 0)
 			(effects
 				(font
@@ -25949,7 +26442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 76.2 168.91 0)
 			(effects
 				(font
@@ -26028,7 +26521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 88.9 147.32 0)
 			(effects
 				(font
@@ -26107,7 +26600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 101.6 35.56 0)
 			(effects
 				(font
@@ -26256,7 +26749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 76.2 35.56 0)
 			(effects
 				(font
@@ -26335,7 +26828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 76.2 85.09 0)
 			(effects
 				(font
@@ -26479,7 +26972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 69.85 35.56 0)
 			(effects
 				(font
@@ -26558,7 +27051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 114.3 168.91 0)
 			(effects
 				(font
@@ -26637,7 +27130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 82.55 53.34 0)
 			(effects
 				(font
@@ -26716,7 +27209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 69.85 85.09 0)
 			(effects
 				(font
@@ -26795,7 +27288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 114.3 85.09 0)
 			(effects
 				(font
@@ -26941,7 +27434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 107.95 102.87 0)
 			(effects
 				(font
@@ -27020,7 +27513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 62.23 69.85 0)
 			(effects
 				(font
@@ -27099,7 +27592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 69.85 102.87 0)
 			(effects
 				(font
@@ -27178,7 +27671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 82.55 85.09 0)
 			(effects
 				(font
@@ -27230,6 +27723,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 215.9 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb41c817-1f47-4d6c-a6af-884273b6e5ae")
+		(property "Reference" "R11"
+			(at 215.9 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 215.9 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 215.9 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88ca2390-4f05-4001-b26e-5e3f8529df16")
+		)
+		(pin "2"
+			(uuid "3b147a6d-ea67-4aa0-bade-986cb5767925")
+		)
+		(instances
+			(project "Matrix"
+				(path "/36e18e2e-f10f-498a-b319-82b0e6fc74a4"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 55.88 20.32 90)
 		(unit 1)
@@ -27257,7 +27818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 55.88 20.32 0)
 			(effects
 				(font
@@ -27471,7 +28032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 55.88 35.56 0)
 			(effects
 				(font
@@ -27550,7 +28111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 114.3 157.48 0)
 			(effects
 				(font
@@ -27765,7 +28326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 95.25 119.38 0)
 			(effects
 				(font
@@ -27844,7 +28405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 69.85 180.34 0)
 			(effects
 				(font
@@ -27923,7 +28484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 107.95 157.48 0)
 			(effects
 				(font
@@ -28002,7 +28563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 55.88 157.48 0)
 			(effects
 				(font
@@ -28081,7 +28642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 69.85 137.16 0)
 			(effects
 				(font
@@ -28230,7 +28791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 88.9 20.32 0)
 			(effects
 				(font
@@ -28282,6 +28843,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 351.79 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6cff37f-f2b6-4f4f-8240-3410afd9b689")
+		(property "Reference" "J6"
+			(at 353.06 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 353.06 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical_SMD_Pin1Left"
+			(at 351.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 351.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32a9846d-2bc0-4d56-b81d-1f1bc1ccd61f")
+		)
+		(pin "1"
+			(uuid "c8e920c2-7d08-46f5-a862-0eb200acb8ab")
+		)
+		(pin "3"
+			(uuid "fc2eee85-caf9-4540-89c6-932cd7dc41ae")
+		)
+		(instances
+			(project ""
+				(path "/36e18e2e-f10f-498a-b319-82b0e6fc74a4"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 114.3 69.85 90)
 		(unit 1)
@@ -28309,7 +28943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 114.3 69.85 0)
 			(effects
 				(font
@@ -28457,7 +29091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 95.25 85.09 0)
 			(effects
 				(font
@@ -28509,71 +29143,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 317.5 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cb21de7f-dcbf-469f-83c6-d9ea8060eeb7")
-		(property "Reference" "#PWR010"
-			(at 317.5 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 317.754 40.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 317.5 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 317.5 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 317.5 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23dd057e-07a3-4afe-9d52-b476f8abcc39")
-		)
-		(instances
-			(project "Matrix"
-				(path "/36e18e2e-f10f-498a-b319-82b0e6fc74a4"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 114.3 53.34 90)
 		(unit 1)
@@ -28601,7 +29170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 114.3 53.34 0)
 			(effects
 				(font
@@ -28680,7 +29249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 69.85 147.32 0)
 			(effects
 				(font
@@ -28871,6 +29440,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 351.79 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf41828c-c702-41ea-b6ad-d502f75beb38")
+		(property "Reference" "J5"
+			(at 353.06 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 353.06 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical_SMD_Pin1Left"
+			(at 351.79 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.79 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 351.79 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "80a44913-6046-4ff9-9dea-599821b2d28f")
+		)
+		(pin "3"
+			(uuid "7e64f4c8-fe7d-4c53-99c9-4e509adf9a17")
+		)
+		(pin "1"
+			(uuid "a984a86d-233f-4be3-a334-5e9ea452044f")
+		)
+		(pin "2"
+			(uuid "f094a8f6-d07a-4975-af37-fcc485e81f5c")
+		)
+		(instances
+			(project ""
+				(path "/36e18e2e-f10f-498a-b319-82b0e6fc74a4"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 224.79 128.27 0)
 		(unit 1)
@@ -29034,7 +29679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 82.55 137.16 0)
 			(effects
 				(font
@@ -29113,7 +29758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 49.53 53.34 0)
 			(effects
 				(font
@@ -29192,7 +29837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 88.9 85.09 0)
 			(effects
 				(font
@@ -29271,7 +29916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 82.55 20.32 0)
 			(effects
 				(font
@@ -29419,7 +30064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 82.55 102.87 0)
 			(effects
 				(font
@@ -29471,103 +30116,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x11_Pin")
-		(at 346.71 86.36 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9994f13-b811-4e43-a1b8-9f043bfff5ea")
-		(property "Reference" "J4"
-			(at 347.98 87.6301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x11_Pin"
-			(at 347.98 85.0901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
-			(at 346.71 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 346.71 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x11, script generated"
-			(at 346.71 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45546334-26cc-49aa-b9c0-8480e4d53579")
-		)
-		(pin "8"
-			(uuid "d1919890-a877-4625-929f-2fc9db9f68a6")
-		)
-		(pin "7"
-			(uuid "488ff2e6-1f31-40d6-b80e-f08b97bd44d5")
-		)
-		(pin "2"
-			(uuid "dfe462f7-e20a-4ba7-b864-19e87fb6b89d")
-		)
-		(pin "3"
-			(uuid "6badf1a9-eb7d-4cf2-8c91-e29d35f1a835")
-		)
-		(pin "4"
-			(uuid "ef388d30-d80d-47e8-a91c-4baa3a840981")
-		)
-		(pin "5"
-			(uuid "f164f2b8-e109-45fb-a8de-440e5070fb29")
-		)
-		(pin "6"
-			(uuid "99fbdf0b-f9b1-43ad-8abd-002f4822c3e8")
-		)
-		(pin "9"
-			(uuid "f773f2ed-c9ea-4fb9-9550-1517d40156eb")
-		)
-		(pin "10"
-			(uuid "5fa5cfff-05d2-47eb-b725-5b381d0a9633")
-		)
-		(pin "11"
-			(uuid "8c02fe57-e627-4437-8b61-4a1b9a6d1588")
-		)
-		(instances
-			(project "Matrix"
-				(path "/36e18e2e-f10f-498a-b319-82b0e6fc74a4"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 43.18 119.38 90)
 		(unit 1)
@@ -29595,7 +30143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 43.18 119.38 0)
 			(effects
 				(font
@@ -29807,7 +30355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 101.6 147.32 0)
 			(effects
 				(font
@@ -29886,7 +30434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 114.3 35.56 0)
 			(effects
 				(font
@@ -29939,7 +30487,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 312.42 15.24 0)
+		(at 391.16 13.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29948,7 +30496,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3eaa80d-b30c-45bb-8429-f2db39c8bd6d")
 		(property "Reference" "#PWR015"
-			(at 312.42 19.05 0)
+			(at 391.16 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29957,7 +30505,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 312.42 10.16 0)
+			(at 391.16 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29965,7 +30513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 312.42 15.24 0)
+			(at 391.16 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29974,7 +30522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 312.42 15.24 0)
+			(at 391.16 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29983,7 +30531,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 312.42 15.24 0)
+			(at 391.16 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30031,7 +30579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 107.95 69.85 0)
 			(effects
 				(font
@@ -30179,7 +30727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 114.3 119.38 0)
 			(effects
 				(font
@@ -30597,7 +31145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 49.53 20.32 0)
 			(effects
 				(font
@@ -30676,7 +31224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 43.18 147.32 0)
 			(effects
 				(font
@@ -30823,7 +31371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 95.25 20.32 0)
 			(effects
 				(font
@@ -30902,7 +31450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 114.3 102.87 0)
 			(effects
 				(font
@@ -30981,7 +31529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 107.95 53.34 0)
 			(effects
 				(font
@@ -31060,7 +31608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 95.25 157.48 0)
 			(effects
 				(font
@@ -31139,7 +31687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 43.18 85.09 0)
 			(effects
 				(font
@@ -31218,7 +31766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 107.95 147.32 0)
 			(effects
 				(font
@@ -31368,7 +31916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 55.88 102.87 0)
 			(effects
 				(font
@@ -31447,7 +31995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 95.25 180.34 0)
 			(effects
 				(font
@@ -31526,7 +32074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 95.25 168.91 0)
 			(effects
 				(font
@@ -31760,7 +32308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 43.18 180.34 0)
 			(effects
 				(font
@@ -32026,7 +32574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 82.55 69.85 0)
 			(effects
 				(font
