@@ -366,6 +366,7 @@
 		(property "Reference" "D17"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d5a5008f-ec92-4835-adeb-3017a6993df1")
 			(effects
 				(font
@@ -591,7 +592,7 @@
 		(descr "ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, Without stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAEE010.html")
 		(tags "SPST Button Switch")
 		(property "Reference" "SW1"
-			(at 0 -3.599999 135)
+			(at -5.028779 0.227251 225)
 			(layer "F.SilkS")
 			(uuid "f7115299-243a-48a1-adb8-37910c7bc1a6")
 			(effects
@@ -1030,6 +1031,7 @@
 		(property "Reference" "D65"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "69588e32-f6b0-4592-98b3-403016447b23")
 			(effects
 				(font
@@ -1257,6 +1259,7 @@
 		(property "Reference" "D39"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "98c2453f-2ba7-4391-8a59-e7e1c5c26c34")
 			(effects
 				(font
@@ -1484,6 +1487,7 @@
 		(property "Reference" "D134"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a5b62551-adff-4fb8-b722-80a6c45ed6d0")
 			(effects
 				(font
@@ -1711,6 +1715,7 @@
 		(property "Reference" "D50"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "58658cfe-353c-417d-8c93-1b022fb957bf")
 			(effects
 				(font
@@ -1938,6 +1943,7 @@
 		(property "Reference" "D14"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a50fdfa5-1ec8-416c-ba52-2b04571949ff")
 			(effects
 				(font
@@ -2165,6 +2171,7 @@
 		(property "Reference" "D91"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c9f5ae40-e122-41cd-add4-5f1bb519ffae")
 			(effects
 				(font
@@ -2392,6 +2399,7 @@
 		(property "Reference" "D58"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "de7109d4-27b3-4400-9581-e9a81799e6ea")
 			(effects
 				(font
@@ -2619,6 +2627,7 @@
 		(property "Reference" "D130"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "eaee5dad-aee8-44fe-b697-91e00b93f930")
 			(effects
 				(font
@@ -3046,6 +3055,7 @@
 		(property "Reference" "D69"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d733de02-1d17-41e5-8c05-42e7a7108333")
 			(effects
 				(font
@@ -3273,6 +3283,7 @@
 		(property "Reference" "D127"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c6723b8e-5228-4f4b-8961-08a1876c3f9f")
 			(effects
 				(font
@@ -3500,6 +3511,7 @@
 		(property "Reference" "D139"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f49abd0c-42ed-4c48-84d7-7769992959f9")
 			(effects
 				(font
@@ -3926,6 +3938,7 @@
 		(property "Reference" "D119"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9e648fa3-bc23-462a-b261-2b8c5c42f7d9")
 			(effects
 				(font
@@ -4352,6 +4365,7 @@
 		(property "Reference" "D96"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7d864267-6133-4784-a8c6-23d9521773bc")
 			(effects
 				(font
@@ -4579,6 +4593,7 @@
 		(property "Reference" "D140"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0446cc57-c95a-4ff5-98b2-c0a4496152c7")
 			(effects
 				(font
@@ -4806,6 +4821,7 @@
 		(property "Reference" "D18"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5c09e6fd-a213-401c-9951-7c00bb02dfb5")
 			(effects
 				(font
@@ -5033,6 +5049,7 @@
 		(property "Reference" "D120"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2316a3cc-624f-4cd4-a1d7-395cea2d45fc")
 			(effects
 				(font
@@ -5460,6 +5477,7 @@
 		(property "Reference" "D87"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "56bc19ce-1f2b-45f6-a455-34706cdcbca9")
 			(effects
 				(font
@@ -5687,6 +5705,7 @@
 		(property "Reference" "D47"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0f20bde7-216a-4d9e-bcb5-2d0c6fd53b83")
 			(effects
 				(font
@@ -5914,6 +5933,7 @@
 		(property "Reference" "D1"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b5ec67e3-6b10-4de7-a0b6-06cb9c299896")
 			(effects
 				(font
@@ -6143,6 +6163,7 @@
 		(property "Reference" "D113"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5116aba9-e4a7-4ec9-ba35-78df1382abe4")
 			(effects
 				(font
@@ -6570,6 +6591,7 @@
 		(property "Reference" "D48"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bfc85794-82ce-4885-b558-b17cb25c3856")
 			(effects
 				(font
@@ -7061,6 +7083,7 @@
 		(property "Reference" "D43"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "cc68a0f0-c2e6-45a9-af7b-94f4418938cc")
 			(effects
 				(font
@@ -7288,6 +7311,7 @@
 		(property "Reference" "D25"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f51a02d1-8ac7-4d77-b17e-0c04b24ff6fd")
 			(effects
 				(font
@@ -7515,6 +7539,7 @@
 		(property "Reference" "D19"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e256f591-a8e7-462d-88e4-5dfb4f942123")
 			(effects
 				(font
@@ -7742,6 +7767,7 @@
 		(property "Reference" "D128"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "12c15068-92c2-4587-ab90-96fee83b0961")
 			(effects
 				(font
@@ -7969,6 +7995,7 @@
 		(property "Reference" "D73"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3e2a32c9-e0a6-4044-9e3a-48f673e5673e")
 			(effects
 				(font
@@ -8196,6 +8223,7 @@
 		(property "Reference" "D42"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a473f5ed-697e-4df8-81d1-26167cd08c9c")
 			(effects
 				(font
@@ -8623,6 +8651,7 @@
 		(property "Reference" "D103"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "19da7e28-430f-4bf3-b565-18c2b2c34984")
 			(effects
 				(font
@@ -8848,7 +8877,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at 0 -1.16 90)
+			(at 0.960345 -1.070436 90)
 			(layer "F.SilkS")
 			(uuid "87955a46-9e2f-4786-9eb6-91886aa18d2c")
 			(effects
@@ -9049,6 +9078,7 @@
 		(property "Reference" "D21"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ad730376-6527-40f6-ac93-a0a975ba1217")
 			(effects
 				(font
@@ -9276,6 +9306,7 @@
 		(property "Reference" "D98"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a71d1338-05c6-48d7-b51e-2223cfb79000")
 			(effects
 				(font
@@ -9503,6 +9534,7 @@
 		(property "Reference" "D107"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1b9ecf55-38fa-40b5-b353-006860e86574")
 			(effects
 				(font
@@ -9730,6 +9762,7 @@
 		(property "Reference" "D24"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2b9a4d80-ef7c-44ee-bc20-37bf0e7cf4e1")
 			(effects
 				(font
@@ -10156,6 +10189,7 @@
 		(property "Reference" "D26"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "73f84e45-ae7a-4e54-832c-830cfa1b47c3")
 			(effects
 				(font
@@ -10383,6 +10417,7 @@
 		(property "Reference" "D97"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f01d2afd-769f-4e58-81fd-c00679cfcd89")
 			(effects
 				(font
@@ -10610,6 +10645,7 @@
 		(property "Reference" "D79"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e0110081-711e-4bee-88e5-089c8515eb1c")
 			(effects
 				(font
@@ -10837,6 +10873,7 @@
 		(property "Reference" "D101"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "84084f95-7fa3-4555-832e-5e038515ec90")
 			(effects
 				(font
@@ -11064,6 +11101,7 @@
 		(property "Reference" "D122"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9e8f68d1-00b5-430a-a562-e20f142d50e3")
 			(effects
 				(font
@@ -11291,6 +11329,7 @@
 		(property "Reference" "D70"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5cae80b1-4bbd-4f78-b678-07875da48b1d")
 			(effects
 				(font
@@ -12701,6 +12740,7 @@
 		(property "Reference" "D49"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "64a8de67-9500-4eff-8cb4-3411280e1641")
 			(effects
 				(font
@@ -12928,6 +12968,7 @@
 		(property "Reference" "D131"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c971642f-c842-4114-9ad6-bed27867d961")
 			(effects
 				(font
@@ -14013,6 +14054,7 @@
 		(property "Reference" "D84"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2db77b89-4e33-4334-a358-d79e3a9a4c7f")
 			(effects
 				(font
@@ -14240,6 +14282,7 @@
 		(property "Reference" "D75"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5e15e12d-ce0e-4eb6-82c1-791277ed41b4")
 			(effects
 				(font
@@ -14467,6 +14510,7 @@
 		(property "Reference" "D61"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "af2862d2-301f-417a-b04d-cdb2059e7aa4")
 			(effects
 				(font
@@ -14694,6 +14738,7 @@
 		(property "Reference" "D105"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c08fdb98-2692-4494-963c-6933f981a2d7")
 			(effects
 				(font
@@ -14921,6 +14966,7 @@
 		(property "Reference" "D3"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "18bba2a8-ad4c-471a-97ed-8faf67e37264")
 			(effects
 				(font
@@ -15148,6 +15194,7 @@
 		(property "Reference" "D95"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6b8ef4d5-7800-4183-bbd5-40464bebeb72")
 			(effects
 				(font
@@ -15375,6 +15422,7 @@
 		(property "Reference" "D110"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "baf07b22-1733-4039-a63b-99fecea90c32")
 			(effects
 				(font
@@ -15602,6 +15650,7 @@
 		(property "Reference" "D76"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4ec5e095-d35d-4581-8f4d-32f38b64d56a")
 			(effects
 				(font
@@ -16028,6 +16077,7 @@
 		(property "Reference" "D64"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "77b8b270-51e4-4a64-978c-1ffaffdabd6b")
 			(effects
 				(font
@@ -16255,6 +16305,7 @@
 		(property "Reference" "D132"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "41d199a5-af8a-4785-8b10-cc021fcad54d")
 			(effects
 				(font
@@ -16482,6 +16533,7 @@
 		(property "Reference" "D30"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "291d1b2e-cdcf-43d4-9e73-936566870d9b")
 			(effects
 				(font
@@ -16709,6 +16761,7 @@
 		(property "Reference" "D53"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "78223a60-1b54-4cc0-bc0a-c60a24d8d540")
 			(effects
 				(font
@@ -17135,6 +17188,7 @@
 		(property "Reference" "D29"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "85a8230b-61c6-4718-8457-78b0b25bed20")
 			(effects
 				(font
@@ -17760,6 +17814,7 @@
 		(property "Reference" "D133"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c5f73afa-0853-406f-8037-91d088f4e3f4")
 			(effects
 				(font
@@ -17987,6 +18042,7 @@
 		(property "Reference" "J6"
 			(at 0 -2.61 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5a0bf85c-2713-439c-9c42-bbd7f0dd6edc")
 			(effects
 				(font
@@ -18355,6 +18411,7 @@
 		(property "Reference" "D137"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f0108c10-44f6-446b-b87e-d0c8e54c6c1d")
 			(effects
 				(font
@@ -18781,6 +18838,7 @@
 		(property "Reference" "D142"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3cd08423-24a1-4d92-a5e1-46da8f5beba6")
 			(effects
 				(font
@@ -19008,6 +19066,7 @@
 		(property "Reference" "D15"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4d311b72-6a5d-4b3f-9e2d-82685d6f9c9a")
 			(effects
 				(font
@@ -19235,6 +19294,7 @@
 		(property "Reference" "D59"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "10250a37-48ef-4ebb-9244-07bfe48ba79f")
 			(effects
 				(font
@@ -19462,6 +19522,7 @@
 		(property "Reference" "D60"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c470168c-3e8b-4bc3-8f42-43cc47834582")
 			(effects
 				(font
@@ -19689,6 +19750,7 @@
 		(property "Reference" "D37"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0c54bd4a-3f7c-4b3e-99d6-3dd1689ac593")
 			(effects
 				(font
@@ -19916,6 +19978,7 @@
 		(property "Reference" "D66"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5f1964c1-a12f-48d8-a0a3-a3661d5ad141")
 			(effects
 				(font
@@ -20143,6 +20206,7 @@
 		(property "Reference" "D27"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e6c93bb5-3eb7-447c-b345-05b34bfd52cf")
 			(effects
 				(font
@@ -20370,6 +20434,7 @@
 		(property "Reference" "D36"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8481f395-91ef-4ebe-8ac3-df0997d82460")
 			(effects
 				(font
@@ -20597,6 +20662,7 @@
 		(property "Reference" "D22"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5333a329-8f00-4570-8d55-a6e5192ec2b6")
 			(effects
 				(font
@@ -21288,6 +21354,7 @@
 		(property "Reference" "D67"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6cad93e2-145d-4634-9d5e-9add91793f72")
 			(effects
 				(font
@@ -21515,6 +21582,7 @@
 		(property "Reference" "D123"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ce682d6b-966d-4e65-acf8-0506c52a2c7a")
 			(effects
 				(font
@@ -21939,7 +22007,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at 0 -1.17 135)
+			(at 1.170664 0.806941 225)
 			(layer "F.SilkS")
 			(uuid "500d9326-8d95-4c2e-804c-0f03527fecda")
 			(effects
@@ -22140,6 +22208,7 @@
 		(property "Reference" "D33"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "290b4934-6555-47b9-965e-743fabf06971")
 			(effects
 				(font
@@ -22566,6 +22635,7 @@
 		(property "Reference" "D40"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "57fb7bfb-e02b-4bc3-b2df-05902d2bdb8c")
 			(effects
 				(font
@@ -22793,6 +22863,7 @@
 		(property "Reference" "D46"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "959c9368-f67b-48d9-abf6-86e5bb1307ec")
 			(effects
 				(font
@@ -23020,6 +23091,7 @@
 		(property "Reference" "D144"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e2697223-dd25-4db6-86ef-686040183343")
 			(effects
 				(font
@@ -23446,6 +23518,7 @@
 		(property "Reference" "D9"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bee3fbd9-fddc-4593-b3f1-bddc433cb97a")
 			(effects
 				(font
@@ -23671,7 +23744,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at 0 -1.17 0)
+			(at 0 1.2 0)
 			(layer "F.SilkS")
 			(uuid "4c62e512-6730-483d-8d31-39c205d17434")
 			(effects
@@ -24233,7 +24306,7 @@
 		(descr "QFN, 40 Pin (http://www.issi.com/WW/pdf/31FL3736.pdf#page=28), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U4"
-			(at 0 -3.83 0)
+			(at -0.502728 -1.957295 45)
 			(layer "F.SilkS")
 			(uuid "722710e0-525d-48b6-ac5c-c66adea6fac4")
 			(effects
@@ -25094,6 +25167,7 @@
 		(property "Reference" "D74"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "52d515f1-6e10-44a3-8301-274a36402b45")
 			(effects
 				(font
@@ -25321,6 +25395,7 @@
 		(property "Reference" "D71"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "405f390e-7809-4ffb-9b50-1bb25f9b5d22")
 			(effects
 				(font
@@ -25548,6 +25623,7 @@
 		(property "Reference" "D23"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "31a4acaa-167b-488a-bad4-2fd3d8c47bac")
 			(effects
 				(font
@@ -25775,6 +25851,7 @@
 		(property "Reference" "D138"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1d1e9681-42a2-4314-978c-b7ef38922ff5")
 			(effects
 				(font
@@ -26002,6 +26079,7 @@
 		(property "Reference" "D55"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "34928763-7c5c-4444-8626-c7fb3256e76b")
 			(effects
 				(font
@@ -26229,6 +26307,7 @@
 		(property "Reference" "D41"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1dddbd25-c9b2-41de-b380-0a50e7c20732")
 			(effects
 				(font
@@ -26456,6 +26535,7 @@
 		(property "Reference" "D116"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bdc25ac4-ac25-4b44-b3e9-536ff407548f")
 			(effects
 				(font
@@ -26683,6 +26763,7 @@
 		(property "Reference" "D135"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e90605d4-e6f3-415b-832f-1b886b71eeaa")
 			(effects
 				(font
@@ -26910,6 +26991,7 @@
 		(property "Reference" "D82"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a7e7ed85-ea6c-4e60-a3ee-5f34a243ea2d")
 			(effects
 				(font
@@ -27137,6 +27219,7 @@
 		(property "Reference" "D83"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6b3b0ee4-77d2-4e06-bcd3-a2565de0b850")
 			(effects
 				(font
@@ -27364,6 +27447,7 @@
 		(property "Reference" "D114"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "912fb26a-e91d-4d74-9f4d-99ef1affbdb0")
 			(effects
 				(font
@@ -27591,6 +27675,7 @@
 		(property "Reference" "D100"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "182ec73c-55d5-4ec1-abbe-deae51964dc9")
 			(effects
 				(font
@@ -27818,6 +27903,7 @@
 		(property "Reference" "D6"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "def390b0-f602-45c2-a056-b1ec312a3ce3")
 			(effects
 				(font
@@ -28045,6 +28131,7 @@
 		(property "Reference" "D63"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "21dee0e8-56cb-44e3-b715-cb2ae8961729")
 			(effects
 				(font
@@ -28272,6 +28359,7 @@
 		(property "Reference" "D90"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f653324f-3d6a-47a3-9284-c2946b3dc6ff")
 			(effects
 				(font
@@ -28499,6 +28587,7 @@
 		(property "Reference" "D89"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "84edc5e7-ae4b-4a96-b796-8321ad66733a")
 			(effects
 				(font
@@ -28726,6 +28815,7 @@
 		(property "Reference" "D104"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "80fbc4a7-d0a7-4ee8-b35f-fa1a0a178715")
 			(effects
 				(font
@@ -28953,6 +29043,7 @@
 		(property "Reference" "D11"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c1b47d91-a05d-424c-94fd-060e7a84cedc")
 			(effects
 				(font
@@ -29180,6 +29271,7 @@
 		(property "Reference" "D81"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a894d5d7-46f0-4304-9515-d3c19953c990")
 			(effects
 				(font
@@ -29407,6 +29499,7 @@
 		(property "Reference" "D38"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a28d8a9b-43b8-494d-90d0-7253bad44d6c")
 			(effects
 				(font
@@ -29634,6 +29727,7 @@
 		(property "Reference" "D118"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0671e349-d46f-4efa-b15f-e53938790727")
 			(effects
 				(font
@@ -30676,6 +30770,7 @@
 		(property "Reference" "D16"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "48c3586f-eaa8-4a91-8608-2bae1d3dad49")
 			(effects
 				(font
@@ -30903,6 +30998,7 @@
 		(property "Reference" "D125"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "65aae633-4642-483d-9e51-d5c87102df0f")
 			(effects
 				(font
@@ -31130,6 +31226,7 @@
 		(property "Reference" "D88"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "389200f1-2537-46de-9295-5ac334297bf3")
 			(effects
 				(font
@@ -31755,6 +31852,7 @@
 		(property "Reference" "D10"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b65758b1-7e66-4fbb-8be4-7f581920dc24")
 			(effects
 				(font
@@ -32181,6 +32279,7 @@
 		(property "Reference" "D20"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "238244fa-1bd5-41e9-990b-fb68a7288bb2")
 			(effects
 				(font
@@ -32408,6 +32507,7 @@
 		(property "Reference" "D94"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "28a07e8c-5294-44cc-b201-91aa27cd50ce")
 			(effects
 				(font
@@ -32635,6 +32735,7 @@
 		(property "Reference" "D85"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8494bcea-bb3f-444a-91ff-632609706e27")
 			(effects
 				(font
@@ -32862,6 +32963,7 @@
 		(property "Reference" "D102"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "aafb916e-0d6f-42da-8535-9c36fdf4daff")
 			(effects
 				(font
@@ -33089,6 +33191,7 @@
 		(property "Reference" "D45"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d2a648ef-29fd-4dfe-b4a6-c93f6861b5ae")
 			(effects
 				(font
@@ -33316,6 +33419,7 @@
 		(property "Reference" "D12"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a01fa33f-ec29-498d-b486-103ec2ff47ca")
 			(effects
 				(font
@@ -34058,6 +34162,7 @@
 		(property "Reference" "D141"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6bb2321c-79c3-4fcf-b99a-08cd89fa1fe0")
 			(effects
 				(font
@@ -34285,6 +34390,7 @@
 		(property "Reference" "D112"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "14d862d1-a705-46f2-8b64-17d2401da72b")
 			(effects
 				(font
@@ -34512,6 +34618,7 @@
 		(property "Reference" "D31"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ceebe6de-de13-4bd6-b450-2818b6590d2d")
 			(effects
 				(font
@@ -34739,6 +34846,7 @@
 		(property "Reference" "D106"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4546c729-f8d9-41c1-a811-070fe445b94e")
 			(effects
 				(font
@@ -34966,6 +35074,7 @@
 		(property "Reference" "D51"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "278f89b9-66ec-4dbb-871c-e6714136a579")
 			(effects
 				(font
@@ -35193,6 +35302,7 @@
 		(property "Reference" "D32"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "32256499-5cde-4068-ada4-8c8498d1acc1")
 			(effects
 				(font
@@ -35420,6 +35530,7 @@
 		(property "Reference" "D109"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a507671e-017d-4d21-b234-d6b726c707eb")
 			(effects
 				(font
@@ -35647,6 +35758,7 @@
 		(property "Reference" "D136"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d93da81b-7203-4002-9ac8-a9319c42e061")
 			(effects
 				(font
@@ -35874,6 +35986,7 @@
 		(property "Reference" "D5"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "232a26ad-2a7a-4838-8daa-861d73acd1e1")
 			(effects
 				(font
@@ -36101,6 +36214,7 @@
 		(property "Reference" "D35"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b3783415-3ef4-46fb-9305-363bde69fd9c")
 			(effects
 				(font
@@ -36326,7 +36440,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 -1.17 90)
+			(at -1.043181 -0.698997 180)
 			(layer "F.SilkS")
 			(uuid "6be91d57-3a32-43bb-9efd-50aa7367d9cb")
 			(effects
@@ -36527,6 +36641,7 @@
 		(property "Reference" "D111"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6e44ee74-3b7b-4bbf-bcf0-48b931c774ae")
 			(effects
 				(font
@@ -36754,6 +36869,7 @@
 		(property "Reference" "D68"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1af12aa2-15ed-42e6-a004-98b07a290284")
 			(effects
 				(font
@@ -36981,6 +37097,7 @@
 		(property "Reference" "D2"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4aa6c690-dd9a-4468-9196-2b66277d13f7")
 			(effects
 				(font
@@ -37208,6 +37325,7 @@
 		(property "Reference" "D4"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "33635b52-e6c7-4b4e-9726-9f7d827a1f07")
 			(effects
 				(font
@@ -37433,7 +37551,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 -1.16 0)
+			(at 0.143718 -1.1 0)
 			(layer "F.SilkS")
 			(uuid "cdcdfa91-5a6d-4f6d-af26-93f810fa68ed")
 			(effects
@@ -37831,7 +37949,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 -1.17 135)
+			(at -1.217106 0.141421 225)
 			(layer "F.SilkS")
 			(uuid "ee959351-a29a-4f4d-8d9e-c44585437cd9")
 			(effects
@@ -38032,6 +38150,7 @@
 		(property "Reference" "D78"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8e53b67d-fd65-4a3e-affb-25e18033393f")
 			(effects
 				(font
@@ -38259,6 +38378,7 @@
 		(property "Reference" "D126"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "09228b8a-51a1-49ac-b092-32e310e4bc43")
 			(effects
 				(font
@@ -38486,6 +38606,7 @@
 		(property "Reference" "D80"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "073c5510-d4b0-43b9-a15c-abe45bd4bee4")
 			(effects
 				(font
@@ -38713,6 +38834,7 @@
 		(property "Reference" "D124"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4079eced-771f-44ca-98bf-6728a0e80ba0")
 			(effects
 				(font
@@ -39140,6 +39262,7 @@
 		(property "Reference" "D8"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8bcd535b-32a4-4b4d-a635-a914d29d2ce0")
 			(effects
 				(font
@@ -39367,6 +39490,7 @@
 		(property "Reference" "D121"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "44ca8021-6872-494b-94c4-e245fe98480b")
 			(effects
 				(font
@@ -39594,6 +39718,7 @@
 		(property "Reference" "D56"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0af3ebd6-0cdc-4449-a44f-bffe4570b59f")
 			(effects
 				(font
@@ -40236,6 +40361,7 @@
 		(property "Reference" "D52"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d365a649-1e5f-43c2-958f-03531e0b6995")
 			(effects
 				(font
@@ -40463,6 +40589,7 @@
 		(property "Reference" "D34"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "50aec4c6-04b2-4697-a8fc-add0ab93e27e")
 			(effects
 				(font
@@ -40690,6 +40817,7 @@
 		(property "Reference" "D86"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3e3210c1-ddbd-4b14-ba76-a628c3f53431")
 			(effects
 				(font
@@ -40917,6 +41045,7 @@
 		(property "Reference" "D115"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e88b4395-63b0-4c7e-a59d-d279247f9602")
 			(effects
 				(font
@@ -41343,6 +41472,7 @@
 		(property "Reference" "D143"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b92fdf77-b7a4-45b1-80f4-a3c948f4ba9e")
 			(effects
 				(font
@@ -41570,6 +41700,7 @@
 		(property "Reference" "D72"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e9e0872a-4b60-4fed-918a-e441721d205e")
 			(effects
 				(font
@@ -41996,6 +42127,7 @@
 		(property "Reference" "D77"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "efae0c8b-2faa-4e31-8625-cfea76fd26f6")
 			(effects
 				(font
@@ -42223,6 +42355,7 @@
 		(property "Reference" "D28"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a7dde485-afa7-4ce6-8e24-06d0f0a9302b")
 			(effects
 				(font
@@ -42450,6 +42583,7 @@
 		(property "Reference" "D99"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bd7860b1-f2e6-4894-beb3-6a4e49d83157")
 			(effects
 				(font
@@ -42677,6 +42811,7 @@
 		(property "Reference" "D54"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b579bc83-2bce-47b5-bfcd-ac88569ca31a")
 			(effects
 				(font
@@ -42904,6 +43039,7 @@
 		(property "Reference" "D57"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e3c0cde4-0685-47a1-98f2-926c160bf2b0")
 			(effects
 				(font
@@ -43131,6 +43267,7 @@
 		(property "Reference" "D129"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d3c7fa66-3bed-435d-b073-8c1803c4d7bd")
 			(effects
 				(font
@@ -43356,7 +43493,7 @@
 		(descr "SOIC, 8 Pin (JEITA/EIAJ ED-7311-19 variation 08-001-BBA and Atmel/Microchip, 208 mils width, https://www.jeita.or.jp/japanese/standard/book/ED-7311-19/#target/page_no=21, https://ww1.microchip.com/downloads/en/DeviceDoc/20005045C.pdf#page=23, https://ww1.microchip.com/downloads/en/DeviceDoc/doc2535.pdf#page=162), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO P-SOP SOP SOP-8 SO SO-8 8S2 S2AE/F K04-056 CASE-751BE SO8W 8-Pin-SOIC PSA W8-2 W8-4 W8MS-1 FPT-8P-M08")
 		(property "Reference" "U3"
-			(at 0 -3.599999 0)
+			(at -3.6125 -3.795 0)
 			(layer "F.SilkS")
 			(uuid "ef38de23-462f-4f2b-b159-c3ffc5c7f72d")
 			(effects
@@ -43922,6 +44059,7 @@
 		(property "Reference" "D13"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d4d5db76-0ee9-45d8-80b0-dd28c19e638f")
 			(effects
 				(font
@@ -44149,6 +44287,7 @@
 		(property "Reference" "D92"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3f2fc8c2-a691-4050-ae75-35c6ab67bb16")
 			(effects
 				(font
@@ -44376,6 +44515,7 @@
 		(property "Reference" "D108"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fb52f4cd-37e6-4b0a-acad-c0967b0bf8f1")
 			(effects
 				(font
@@ -44603,6 +44743,7 @@
 		(property "Reference" "D93"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e6af8e07-3f0a-4092-b0bc-b56cc1327af2")
 			(effects
 				(font
@@ -44830,6 +44971,7 @@
 		(property "Reference" "D7"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2140c359-d70d-45c8-acb5-1dc3c3275cc2")
 			(effects
 				(font
@@ -45057,6 +45199,7 @@
 		(property "Reference" "D62"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e803dee2-3d47-4cd4-8dd5-78d0c9e53ad6")
 			(effects
 				(font
@@ -45284,6 +45427,7 @@
 		(property "Reference" "D117"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "76ff62c7-3a6c-4851-b484-1038562d9ec5")
 			(effects
 				(font
@@ -45509,7 +45653,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at 0 -1.16 0)
+			(at 0.183633 -1.194525 0)
 			(layer "F.SilkS")
 			(uuid "ca178c87-ffd3-482b-b991-6173d5f230b2")
 			(effects
@@ -45710,6 +45854,7 @@
 		(property "Reference" "D44"
 			(at 0 -1.17 45)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "eac3b150-c5c6-4b53-84b7-4b6de8121052")
 			(effects
 				(font
@@ -45927,6 +46072,83 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_circle
+		(center 241.3 57.6)
+		(end 240.3 58.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "48cebb79-4ef8-4f6f-9510-0d174d8de529")
+	)
+	(gr_circle
+		(center 240.019375 57.6)
+		(end 241.3 57.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "82b50eb0-2b0d-404b-b744-d0a4a94deb06")
+	)
+	(gr_arc
+		(start 239 57.6)
+		(mid 239.011193 57.373364)
+		(end 239.044664 57.148933)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9dc23a42-99a2-4c95-b50c-3df372b68cf5")
+	)
+	(gr_arc
+		(start 240.6 58.4)
+		(mid 240.239259 57.530514)
+		(end 240.710345 56.715518)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a076a42e-eaeb-40c9-bae5-e4730847fbac")
+	)
+	(gr_circle
+		(center 242.580625 57.6)
+		(end 241.3 57.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a1766c70-8d9b-4107-ae07-8ae2baadb1e9")
+	)
+	(gr_arc
+		(start 242.2 57.2)
+		(mid 242.253153 57.84799)
+		(end 241.890932 58.387909)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d3045a10-4233-403b-9361-ec8633ac9a76")
+	)
+	(gr_arc
+		(start 243.614915 57.298055)
+		(mid 243.633997 57.649591)
+		(end 243.6 58)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dfe3bc1a-e22e-40b5-9949-3a250944b813")
 	)
 	(gr_line
 		(start 278 85)
