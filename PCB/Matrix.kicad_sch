@@ -14614,7 +14614,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 269.24 55.88 180)
+		(at 276.86 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14624,7 +14624,7 @@
 		)
 		(uuid "b6cba9ed-c0e4-4538-83ec-991e07fbb09f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.4124 55.88 0)
+			(at 271.0324 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14856,7 +14856,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 269.24 53.34 180)
+		(at 276.86 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14866,7 +14866,7 @@
 		)
 		(uuid "d9852018-c897-45e7-87da-46e2db275f26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.4124 53.34 0)
+			(at 271.0324 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19344,73 +19344,6 @@
 			(project "Matrix"
 				(path "/36e18e2e-f10f-498a-b319-82b0e6fc74a4"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 273.05 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "39f6d7d3-ccee-408e-b13a-bbe1b5934e95")
-		(property "Reference" "R4"
-			(at 268.478 57.404 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "90"
-			(at 273.05 57.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 273.05 57.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 273.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "20a1e268-e7b2-46a3-ae51-ad2b52082cbd")
-		)
-		(pin "1"
-			(uuid "a8fd5bbc-3a4c-4605-8f99-ad7cecbfd2ae")
-		)
-		(instances
-			(project "Matrix"
-				(path "/36e18e2e-f10f-498a-b319-82b0e6fc74a4"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -27334,73 +27267,6 @@
 			(project "Matrix"
 				(path "/36e18e2e-f10f-498a-b319-82b0e6fc74a4"
 					(reference "D80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 273.05 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b243b068-75b2-4674-9055-7ccea39cb618")
-		(property "Reference" "R3"
-			(at 268.478 54.864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "90"
-			(at 273.05 55.372 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 273.05 55.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 273.05 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8bce7ed7-8a37-41e2-bc7f-2bb92ae130c7")
-		)
-		(pin "1"
-			(uuid "3b50ff9d-1ed2-481d-9e2b-4adf4e04a2aa")
-		)
-		(instances
-			(project "Matrix"
-				(path "/36e18e2e-f10f-498a-b319-82b0e6fc74a4"
-					(reference "R3")
 					(unit 1)
 				)
 			)
