@@ -2,13 +2,14 @@
 Well this is a DEV BOARD that has 12*12 led screen ( matrix) driven by led DRIVER IS31FL3737 and controlled by RP2040
 # SCHEMATIC
 
-<img width="1064" height="709" alt="image" src="https://github.com/user-attachments/assets/85a3451e-7525-403f-a24c-4446cd82f877" />
+<img width="1096" height="718" alt="image" src="https://github.com/user-attachments/assets/ea82aaf3-5f2c-428d-a549-28be16a54cb5" />
+
 
 
 # PCB
 
 
-<img width="532" height="686" alt="image" src="https://github.com/user-attachments/assets/8c39fdd3-750c-4177-8b8f-b31f925a5858" />
+<img width="486" height="600" alt="image" src="https://github.com/user-attachments/assets/9a7d9a3a-3178-484b-ab74-59079772cc6d" />
 
 
 
