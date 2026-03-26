@@ -15,7 +15,8 @@ Well this is a DEV BOARD that has 12*12 led screen ( matrix) driven by led DRIVE
 
 # 3D preview 
 
-<img width="577" height="540" alt="image" src="https://github.com/user-attachments/assets/e76b0105-dec9-43a7-947a-ea88f9e5816d" />
+<img width="713" height="613" alt="image" src="https://github.com/user-attachments/assets/66a1bce6-f395-48a5-ab45-c6d08f91f63d" />
+
 
 
 # BOM
