@@ -23,8 +23,8 @@ Well this is a DEV BOARD that has 12*12 led screen ( matrix) driven by led DRIVE
 # BOM
 | # | Component | Supplier | Qty | Unit Price | Total (USD) |
 |---|-----------|----------|-----|------------|-------------|
-| 1 | PCB | JLCPCB | 2 | $98 | $98 |
-| | | | | **TOTAL** | **$98** |
+| 1 | PCB | JLCPCB | 2 | $81 | $81 |
+| | | | | **TOTAL** | **$81** |
 
 
 
