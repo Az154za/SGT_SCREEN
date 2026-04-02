@@ -9,7 +9,8 @@ Well this is a DEV BOARD that has 12*12 led screen ( matrix) driven by led DRIVE
 # PCB
 
 
-<img width="486" height="600" alt="image" src="https://github.com/user-attachments/assets/9a7d9a3a-3178-484b-ab74-59079772cc6d" />
+<img width="701" height="793" alt="image" src="https://github.com/user-attachments/assets/71cec4a4-0dc9-4603-bc49-bb1bb4e01451" />
+
 
 
 
